@@ -16,7 +16,6 @@ public class UserServiceImpl implements UserService{
 	
 	@Override
 	public List<User> userList() throws Exception{
-		System.out.println("정보 요청 중");
 		List<User> userList = userDao.userList();
 		return userList;
 	}

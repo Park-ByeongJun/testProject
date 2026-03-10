@@ -17,7 +17,6 @@ public class UserController {
 	
 	@GetMapping("/bringD")
 	public List<User> bringData() throws Exception {
-		System.out.println("TRAX - scorpio");
 		return userService.userList();
 	}
 }

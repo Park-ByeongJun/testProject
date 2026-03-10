@@ -13,7 +13,6 @@ public class CommonController {
 	
 	@GetMapping("/test/bringInfo")
 	public String move() {
-		System.out.println("1.정보 요청 중");
 		return "test/bringInfo";
 	}
 }
