@@ -9,5 +9,7 @@
 <body>
 	<p>TESTINGTESTING</p>
 	<a href="/test/bringInfo"><button>테스트</button></a>
+	<a href="/test/bringInfo"><button>테스트</button></a>
+	<a href="/test/bringInfo"><button>테스트</button></a>
 </body>
 </html>
